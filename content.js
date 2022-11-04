@@ -486,7 +486,7 @@ contentObject = {
                             caption: "FEM solver to calibrate, then simulate bending behaviour for different print patterns (WIP)."
                         },
                         {
-                            content: "./content/bendy/slide6.pdf",
+                            content: "./content/bendy/slide7.pdf",
                             caption: "Project paper."
                         },
                     ]
