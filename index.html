@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Netliz</title>
+    <meta name="description" content="Netliz Portfolio" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/concernBlack.png"
+              alt="Ram Maheshwari Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Netliz</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero-background">
+        <video class="home-hero-background-image" autoplay muted loop>
+          <source src="./assets/mp4/background2.mp4" type="video/mp4">
+        </video>
+        <!--<img class="home-hero-background-image" src="./assets/gif/background.gif"> -->
+      </div>
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Grüetzi, welcome</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            I'm a software engineer focusing on character animation and tools for technical artists.
+          </p>
+          <p class="text-primary">
+            I strive to use my technical experience and theoretical knowledge to bring creative ideas to life. Check out my stuff!
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="./index.html#projects" class="btn btn--bg">Projects</a>
+        </div>
+      </div>
+      <!--
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://github.com/AngryLizard" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/github-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+        -->
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                I'm a <strong> Visual Computing engineer (MSc Computer Science) </strong> and <strong> Unreal Engine developer </strong> located in Zurich, Switzerland. I'm currently working in a remote freelance position 
+                for the <strong> VR/AR </strong> company <i><a href="https://realworld-one.com/">Realworld One</a></i>, and have also created and collaborated on a bunch of interactive software projects. 
+                On the side I'm a digital artist specialising on character rigging, 2D/3D animation and game design.
+              </p>
+              <p class="about__content-details-para">
+                I'm always looking for new challenges, feel free to
+                <strong>contact</strong> me:
+              </p>
+            </div>
+            <a href="./index.html#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Contact</a
+            >
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">Technologies</h3>
+            <div class="skills">
+              <div class="skills__skill">C/C++</div>
+              <div class="skills__skill">C#</div>
+              <div class="skills__skill">Javascript</div>
+              <div class="skills__skill">Python</div>
+              <div class="skills__skill">Matlab</div>
+              <div class="skills__skill">Unreal Engine 4 + 5</div>
+              <div class="skills__skill">Unity</div>
+              <div class="skills__skill">Blender</div>
+              <div class="skills__skill">Flash</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            
+          </span>
+        </h2>
+
+        <div id="contentRows" class="projects__content">
+          <!-- Template content -->>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            Contact me on GitHub or via Email
+          </span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            <strong>
+              <a href = "mailto: contact@netliz.net">contact@netliz.net</a>
+            </strong>
+          </span>
+        </h2>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <a target="_blank" rel="noreferrer" href="https://github.com/AngryLizard">
+              <img
+                class="main-footer__icon"
+                src="./assets/png/github-ico.png"
+                alt="icon"
+              />
+            </a>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Netliz</h4>
+            <p class="main-footer__short-desc">
+              
+            </p>
+          </div>
+        </div>
+
+        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+        <div class="main-footer__lower">
+          &copy; Copyright 2021. Template made by
+          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+            >Ram Maheshwari</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <template id="contentTemplate">
+      {{#each categories}}
+      <div class="projects__row">
+        <div class="projects__row-content">
+          <h3 class="projects__row-content-title">{{name}}</h3>
+          <p class="projects__row-content-desc">
+            {{description}}
+          </p>
+        </div>
+        <div class="projects__row-grid">
+          {{#each projects}}
+          <a
+            class="projects__row-grid-tile modal-button" 
+            onclick="openModal('{{identifier}}')">
+            <img
+              src="{{thumbnail}}"
+              alt="{{name}}"
+              class="projects__row-grid-tile-img"
+              loading="lazy"
+            />
+            <h4 class="projects__row-grid-tile-title">{{name}}</h4>
+          </a>
+          <!-- Modal -->
+          <div id="{{identifier}}-modal" class="projects__row-grid-tile-modal fullscreen">
+            <div 
+              class="projects__row-grid-tile-modal-background fullscreen"
+              onclick="closeModal('{{identifier}}')"></div>
+            <div class="projects__row-grid-tile-modal-content">
+              <h3 class="projects__row-content-title">{{name}}</h3>
+
+              <div 
+                id="{{identifier}}-slides"
+                class="projects__row-grid-tile-modal-content-slideshow">
+                {{#each slides}}
+                <div
+                  id="{{../identifier}}-slide-{{@index}}"
+                  class="projects__row-grid-tile-modal-content-slideshow-slide fade"
+                  style="min-height: 35rem;">
+                  {{#if (isImage content)}}
+                    <img
+                      src="{{content}}"
+                      alt="Slide"
+                      loading="lazy"
+                      class="projects__row-grid-tile-modal-content-slideshow-slide-content"
+                    />
+                  {{else if (isMp4 content)}}
+                    <video
+                      controls
+                      class="projects__row-grid-tile-modal-content-slideshow-slide-content">
+                      <source src="{{content}}" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                  {{else if (isWebm content)}}
+                    <video
+                      controls
+                      class="projects__row-grid-tile-modal-content-slideshow-slide-content">
+                      <source src="{{content}}" type="video/webm">
+                      Your browser does not support the video tag.
+                    </video>
+                  {{else if (isPdf content)}}
+                    <iframe 
+                      src="{{content}}"
+                      class="projects__row-grid-tile-modal-content-slideshow-slide-document">
+                    </iframe>
+                  {{else if (isYoutube content)}}
+                    <iframe 
+                      width="560"
+                      height="315"
+                      src="{{content}}"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                      class="projects__row-grid-tile-modal-content-slideshow-slide-content">
+                    </iframe>
+                  {{/if}}
+                </div>
+                {{/each}}
+              </div>
+              
+              <div class="projects__row-grid-tile-modal-content-slideshow">
+                <a
+                id="{{identifier}}-prev"
+                class="projects__row-grid-tile-modal-content-slideshow-move prev"
+                onclick="prevSlide('{{identifier}}')">&#10094;</a>
+                <div 
+                  id="{{identifier}}-dots"
+                  class="projects__row-grid-tile-modal-content-slideshow-dots">
+                  {{#each slides}}
+                  <span
+                    id="{{../identifier}}-dot-{{@index}}"
+                    class="projects__row-grid-tile-modal-content-slideshow-dots-dot"
+                    onclick="showSlide('{{../identifier}}', {{@index}})"></span>
+                  {{/each}}
+                </div>
+                <a 
+                  id="{{identifier}}-next"
+                  class="projects__row-grid-tile-modal-content-slideshow-move next"
+                  onclick="nextSlide('{{identifier}}')">&#10095;</a>
+              </div>
+
+              <div
+                id="{{identifier}}-captions"
+                class="projects__row-grid-tile-modal-content-slideshow">
+                {{#each slides}}
+                <div
+                  id="{{../identifier}}-caption-{{@index}}"
+                  class="projects__row-grid-tile-modal-content-slideshow-slide fade">
+                  <p class="projects__row-content-desc projects__row-grid-tile-modal-content-slideshow-slide-caption">
+                    {{caption}}
+                  </p>
+                </div>
+                {{/each}}
+              </div>
+
+              <div class="projects__row-grid-tile-modal-footer">
+                <a
+                  class="btn btn--med btn--theme dynamicBgClr"
+                  onclick="closeModal('{{identifier}}')">
+                  Close
+                </a>
+              </div>
+            </div>
+          </div>
+          {{/each}}
+        </div>
+      </div>
+      {{/each}}
+    </template>
+    
+    <script src="./content.js"></script>
+    <script src="./handlebars.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
