@@ -373,7 +373,7 @@ contentObject = {
         },
         {
             name: "Developer Tools",
-            description: "Over the years I have written several developer tools for different platforms. These are the more noteable projects that have gone beyond 'Can you write me a quick python script to do X?'",
+            description: "Several developer tools for different platforms. Projects that have gone beyond 'Can you write me a quick python script to do X?'",
             projects:
             [
                 {
