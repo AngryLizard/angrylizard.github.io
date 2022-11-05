@@ -218,6 +218,8 @@ textarea {
     .home-hero {
       height: unset;
       min-height: unset; } }
+  .home-hero-icon {
+    width: 2.5rem; }
   .home-hero-background {
     display: inline-block;
     overflow: hidden;
@@ -689,7 +691,10 @@ textarea {
     height: 100%;
     object-fit: cover;
     object-position: center;
-    display: block; }
+    display: block;
+    border: black;
+    border-style: solid;
+    border-width: thin; }
   .header__logo-sub {
     font-size: 1.8rem;
     text-transform: uppercase;

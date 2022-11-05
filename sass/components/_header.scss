@@ -47,6 +47,9 @@
     object-fit: cover;
     object-position: center;
     display: block;
+    border: black;
+    border-style: solid;
+    border-width: thin;
   }
   &__logo-sub {
     font-size: 1.8rem;
