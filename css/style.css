@@ -219,7 +219,9 @@ textarea {
       height: unset;
       min-height: unset; } }
   .home-hero-icon {
-    width: 2.5rem; }
+    width: 2.5rem;
+    position: relative;
+    top: 5px; }
   .home-hero-background {
     display: inline-block;
     overflow: hidden;

@@ -3,7 +3,7 @@ contentObject = {
     [
         {
             name: "Unreal Engine Projects",
-            description: "Notable projects done in Unreal Engine and C++.",
+            description: "Notable projects done in Unreal Engine and C++",
             projects:
             [
                 {
