@@ -14,27 +14,27 @@ contentObject = {
                     [
                         {
                             content: "./content/customMovement/slide11.gif",
-                            caption: "Custom movement system based on symplectic euler and mass-spring systems. This makes movement more smooth and properly simulates environmental conditions. Most meshes/characters shown in this project were not created by me."
+                            caption: "Custom movement system based on symplectic euler and mass-spring systems. This makes movement smoother and properly simulates environmental conditions. Most meshes/characters shown in this project were not created by me."
                         },
                         {
                             content: "./content/customMovement/slide9.mp4",
-                            caption: "The system uses a modular approach to movement modes. Swimming or climbing are modules added to the character and are triggered according to priority and conditionals. With this we can very easily add custom movement behaviour e.g. when the character can fly, uses a jetpack or stands on a skateboard without having to touch other movement modes."
+                            caption: "The system uses a modular approach to movement modes. Swimming or climbing are modules added to the character and are triggered according to priority and conditionals: we can very easily add custom movement behaviour, e.g. when the character can fly, uses a jetpack or stands on a skateboard without having to touch other movement modes."
                         },
                         {
                             content: "./content/customMovement/slide10.gif",
-                            caption: "Movement conditions usually depend on environmental values. There is no \"is in water\" boolean, instead we check via the bouyancy equation whether we're floating."
+                            caption: "Movement conditions usually depend on environmental values. There is no \"is in water\" boolean, instead we check via the buoyancy equation whether we're floating."
                         },
                         {
                             content: "./content/customMovement/slide6.mp4",
-                            caption: "The character core is moved using symplectic euler simulation. As a result there can be custom gravity fields and moving bases. For example a spinning planet with a ring: The planet applies gravity but at the same time the character is pulled away by centripetal force."
+                            caption: "The character core is moved using symplectic euler simulation. As a result there can be custom gravity fields and moving bases, for example a spinning planet with a ring: The planet applies gravity but at the same time the character is pulled away by centripetal force."
                         },
                         {
                             content: "./content/customMovement/slide1.mp4",
-                            caption: "Movement is based on character weight, volume and anatomy (leg length etc). As a result, movement changes accordingly when the controlled character is scaled or heavy object are attached. "
+                            caption: "Movement is based on character weight, volume and anatomy. As a result, movement changes accordingly when the controlled character is scaled or heavy objects are attached. "
                         },
                         {
                             content: "./content/customMovement/slide2.mp4",
-                            caption: "Characters can attach to other characters and are not just affected by the parent's velocity but relative acceleration. If the parent starts moving the attached character leans against the inpending forces and falls off."
+                            caption: "Characters can attach to other characters and are not just affected by the parent's velocity but relative acceleration. If the parent starts moving the attached character leans against the impending forces and falls off."
                         },
                         {
                             content: "./content/customMovement/slide5.gif",
@@ -42,7 +42,7 @@ contentObject = {
                         },
                         {
                             content: "./content/customMovement/slide3.mp4",
-                            caption: "With different movement modes there can also be locked attachment. One example is a character holding another. Relative acceleration applies to an attached object all the same and can be used for camera controls to simulate dizziness."
+                            caption: "With different movement modes, there can also be locked attachment. One example is a character holding another. Relative acceleration applies to an attached object all the same and can be used for camera controls to simulate dizziness."
                         },
                         {
                             content: "./content/customMovement/slide4.mp4",
@@ -61,7 +61,7 @@ contentObject = {
                 {
                     identifier: "characterCustomisation",
                     name: "Character Customisation",
-                    thumbnail: "./content/characterCustomisation/slide4.gif",
+                    thumbnail: "./content/characterCustomisation/thumbnail.jpg",
                     slides:
                     [
                         {
